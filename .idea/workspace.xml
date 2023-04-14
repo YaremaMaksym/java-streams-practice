@@ -4,37 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765ed413-a47a-4010-b977-2d43f6c21d64" name="Changes" comment="Start">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/beans/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/beans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/beans/PersonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/DistinctAndSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/Filtering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/GettingStarted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/GroupingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/HowStreamsWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/IntStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/JoiningStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/StatisticsWithStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/TransformationsMapAndReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/TransformationsWithFlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/UnderstandingStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/examples/WorkingWithStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/mockdata/MockData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/people.json" afterDir="false" />
+    <list default="true" id="765ed413-a47a-4010-b977-2d43f6c21d64" name="Changes" comment="CarDTO added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,23 +35,116 @@
     </option>
   </component>
   <component name="ProjectId" id="2OMxjy5YzcPe2ggxszsbqJ3h1Ex" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.Lecture5.averageCarPrice">
+    <configuration name="Lecture4.distinctWithSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.lectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture4" />
+      <option name="METHOD_NAME" value="distinctWithSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture5.averageCarPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.lectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
+      <option name="METHOD_NAME" value="averageCarPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture5.carMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.lectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
+      <option name="METHOD_NAME" value="carMapping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture5.ourFirstMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.lectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
+      <option name="METHOD_NAME" value="ourFirstMapping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture5.understandingFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.lectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
+      <option name="METHOD_NAME" value="understandingFilter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Lecture5.averageCarPrice" />
+        <item itemvalue="JUnit.Lecture5.carMapping" />
+        <item itemvalue="JUnit.Lecture5.understandingFilter" />
+        <item itemvalue="JUnit.Lecture5.ourFirstMapping" />
+        <item itemvalue="JUnit.Lecture4.distinctWithSet" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,8 +153,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681384391610</updated>
-      <workItem from="1681384393167" duration="727000" />
+      <workItem from="1681384393167" duration="4360000" />
+      <workItem from="1681452258897" duration="2339000" />
     </task>
+    <task id="LOCAL-00001" summary="Start">
+      <created>1681385242510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681385242510</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CarDTO added">
+      <created>1681454253971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681454253971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="CarDTO added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CarDTO added" />
   </component>
 </project>
