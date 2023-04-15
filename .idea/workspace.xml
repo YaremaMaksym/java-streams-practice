@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765ed413-a47a-4010-b977-2d43f6c21d64" name="Changes" comment="CarDTO added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture5.java" afterDir="false" />
+    <list default="true" id="765ed413-a47a-4010-b977-2d43f6c21d64" name="Changes" comment="Lecture 1-5">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +56,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Lecture5.averageCarPrice">
-    <configuration name="Lecture4.distinctWithSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Lecture9.longestWord">
+    <configuration name="Lecture8.groupingAndCounting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -64,14 +66,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture4" />
-      <option name="METHOD_NAME" value="distinctWithSet" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture8" />
+      <option name="METHOD_NAME" value="groupingAndCounting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture5.averageCarPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lecture8.simpleGrouping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -80,14 +82,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
-      <option name="METHOD_NAME" value="averageCarPrice" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture8" />
+      <option name="METHOD_NAME" value="simpleGrouping" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture5.carMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lecture9.factorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
-      <option name="METHOD_NAME" value="carMapping" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture9" />
+      <option name="METHOD_NAME" value="factorial" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture5.ourFirstMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lecture9.longestWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +114,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
-      <option name="METHOD_NAME" value="ourFirstMapping" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture9" />
+      <option name="METHOD_NAME" value="longestWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture5.understandingFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lecture9.sumUsingReduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture5" />
-      <option name="METHOD_NAME" value="understandingFilter" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture9" />
+      <option name="METHOD_NAME" value="sumUsingReduce" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Lecture5.averageCarPrice" />
-        <item itemvalue="JUnit.Lecture5.carMapping" />
-        <item itemvalue="JUnit.Lecture5.understandingFilter" />
-        <item itemvalue="JUnit.Lecture5.ourFirstMapping" />
-        <item itemvalue="JUnit.Lecture4.distinctWithSet" />
+        <item itemvalue="JUnit.Lecture9.longestWord" />
+        <item itemvalue="JUnit.Lecture9.sumUsingReduce" />
+        <item itemvalue="JUnit.Lecture9.factorial" />
+        <item itemvalue="JUnit.Lecture8.groupingAndCounting" />
+        <item itemvalue="JUnit.Lecture8.simpleGrouping" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681384391610</updated>
       <workItem from="1681384393167" duration="4360000" />
-      <workItem from="1681452258897" duration="2339000" />
+      <workItem from="1681452258897" duration="15008000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1681385242510</created>
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681454253971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lecture 1-5">
+      <created>1681454975800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681454975800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
     <MESSAGE value="CarDTO added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CarDTO added" />
+    <MESSAGE value="Lecture 1-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 1-5" />
   </component>
 </project>
