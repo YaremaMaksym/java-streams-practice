@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765ed413-a47a-4010-b977-2d43f6c21d64" name="Changes" comment="Lecture 1-5">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture9.java" afterDir="false" />
+    <list default="true" id="765ed413-a47a-4010-b977-2d43f6c21d64" name="Changes" comment="Lecture 6-9">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xsakon/lectures/Lecture13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,20 +44,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Xsakon/IdeaProjects/java-streams-practice/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.Lecture9.longestWord">
-    <configuration name="Lecture8.groupingAndCounting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.streams.Main" />
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture11.joiningStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -66,14 +83,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture8" />
-      <option name="METHOD_NAME" value="groupingAndCounting" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture11" />
+      <option name="METHOD_NAME" value="joiningStrings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture8.simpleGrouping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lecture11.joiningStringsWithStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +99,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture8" />
-      <option name="METHOD_NAME" value="simpleGrouping" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture11" />
+      <option name="METHOD_NAME" value="joiningStringsWithStream" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture9.factorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lecture12.understandingCollect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +115,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture9" />
-      <option name="METHOD_NAME" value="factorial" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture12" />
+      <option name="METHOD_NAME" value="understandingCollect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture9.longestWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lecture13.intermediateAndTerminalOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streams" />
       <extension name="coverage">
         <pattern>
@@ -114,24 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture9" />
-      <option name="METHOD_NAME" value="longestWord" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture9.sumUsingReduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xsakon.lectures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xsakon.lectures" />
-      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture9" />
-      <option name="METHOD_NAME" value="sumUsingReduce" />
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.lectures.Lecture13" />
+      <option name="METHOD_NAME" value="intermediateAndTerminalOperations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Lecture9.longestWord" />
-        <item itemvalue="JUnit.Lecture9.sumUsingReduce" />
-        <item itemvalue="JUnit.Lecture9.factorial" />
-        <item itemvalue="JUnit.Lecture8.groupingAndCounting" />
-        <item itemvalue="JUnit.Lecture8.simpleGrouping" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Lecture13.intermediateAndTerminalOperations" />
+        <item itemvalue="JUnit.Lecture12.understandingCollect" />
+        <item itemvalue="JUnit.Lecture11.joiningStringsWithStream" />
+        <item itemvalue="JUnit.Lecture11.joiningStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +158,8 @@
       <updated>1681384391610</updated>
       <workItem from="1681384393167" duration="4360000" />
       <workItem from="1681452258897" duration="15008000" />
+      <workItem from="1681543672419" duration="1178000" />
+      <workItem from="1681712585156" duration="6658000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1681385242510</created>
@@ -179,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681454975800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lecture 6-9">
+      <created>1681543742463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681543742463</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +199,7 @@
     <MESSAGE value="Start" />
     <MESSAGE value="CarDTO added" />
     <MESSAGE value="Lecture 1-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 1-5" />
+    <MESSAGE value="Lecture 6-9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 6-9" />
   </component>
 </project>
